@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create a book entry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2>Create A Book</h2>
+  <form action="BookApp" method="post">
+    <div class="form-group">
+      <label for="Title">Title:</label>
+      <input type="text" class="form-control" id="tbBook" placeholder="Enter Title" name="bookname" required>
+    </div>
+    <div class="form-group">
+      <label for="author">Author:</label>
+      <input type="text" class="form-control" id="authorname" placeholder="Enter Author" name="authorname" required>
+    </div>
+    <div class="form-group">
+      <label for="cost">Cost:</label>
+      <input type="text" class="form-control" id="tbCost" placeholder="Enter Cost" name="cost" required>
+    </div>
+    
+    <button type="submit" class="btn btn-default">Create</button>
+  </form>
+</div>
+</body>
+</html>
